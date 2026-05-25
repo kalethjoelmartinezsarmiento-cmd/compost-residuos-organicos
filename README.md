@@ -1,5 +1,19 @@
 # Modelo de descomposición de residuos orgánicos
+## Participación integrante 1 - Datos base
 
+El integrante 1 revisó los datos iniciales de las cinco personas utilizados para el modelo de descomposición de residuos orgánicos.
+
+Los datos considerados son:
+
+- Cantidad inicial de residuos orgánicos.
+- Humedad.
+- Temperatura.
+- Constante de descomposición.
+- Tiempo de análisis.
+
+Estos datos permiten aplicar la ecuación diferencial:
+
+dR/dt = -k * H(t) * T(t) * R(t)
 Repositorio académico para simular la disminución de residuos orgánicos usando la ecuación diferencial:
 
 ```text
